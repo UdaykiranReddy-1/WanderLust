@@ -1,4 +1,4 @@
-# WanderLust
+# WanderLust🎒
 
 ## Description
 A full stack website that uses MERN stack for tour bookings.
