@@ -7,7 +7,7 @@ const {
     getPasswordResetURL,
     resetPasswordTemplate,
 } = require('../utils/passwordResetUtils')
-
+ 
 const usePasswordHashToMakeToken = ({
     password: passwordHash,
     _id: userID,
