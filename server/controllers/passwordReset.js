@@ -11,7 +11,7 @@ const {
 const usePasswordHashToMakeToken = ({
     password: passwordHash,
     _id: userID,
-    createdAt,
+    createdAt,  
 }) => {
     createdAt = new Date(createdAt).toISOString()
     const secret = passwordHash + '-' + createdAt
