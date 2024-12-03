@@ -1,4 +1,4 @@
-const Service = require('../models/Service')
+const Service = require('../models/Service') 
 const Booking = require('../models/Booking')
 const { validateAdminRequest } = require('../utils/checkAuth')
 const _ = require('lodash')
