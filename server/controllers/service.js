@@ -11,7 +11,7 @@ const addService = async (req, res) => {
             error,
         })
 
-    const {
+    const { 
         type,
         title,
         isSpecial,
