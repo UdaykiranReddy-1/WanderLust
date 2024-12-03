@@ -158,7 +158,7 @@ const getTrending = async (req, res) => {
         })
 
         return res.status(200).send(foundTrendingServices)
-    } catch (err) {
+    } catch (err) { 
         return res.status(500).send(err)
     }
 }
